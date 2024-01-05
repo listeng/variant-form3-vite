@@ -331,6 +331,10 @@ export const basicFields = [
       automaticDropdown: false,  //自动下拉
       multiple: false,
       multipleLimit: 0,
+      remoteDatasource: false,
+      remoteUrl: '/sys/dict/type/bytype/{typename}',
+      labelName: 'dictLabel',
+      labelValue: 'dictValue',
       optionItems: [
         {label: 'select 1', value: 1},
         {label: 'select 2', value: 2},

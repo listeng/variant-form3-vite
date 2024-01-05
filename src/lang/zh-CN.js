@@ -327,6 +327,10 @@ export default {
       formRulesName: '验证规则名称',
       syntaxCheckWarning: 'JS代码存在语法错误，请仔细检查！',
 
+      remoteDatasource: '远端数据源',
+      remoteUrl: '远端URL',
+      labelName: '标签名',
+      labelValue: '标签值'
     }
 
   }
